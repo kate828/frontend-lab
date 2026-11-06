@@ -1,0 +1,18 @@
+.traffic-lights-wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.traffic-light-container {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  gap: 15px;
+  border: 4px solid #222;
+  width: fit-content;
+}
+.vertical { flex-direction: column; }
+.horizontal { flex-direction: row; }
